@@ -1,0 +1,10 @@
+/src/
+/.gitignore
+/.prettierrc.json
+/babel.config.js
+/LICENSE
+/package-lock.json
+/shims-tsx.d.ts
+/shims-vue.d.ts
+/tsconfig.json
+/vue.config.js
