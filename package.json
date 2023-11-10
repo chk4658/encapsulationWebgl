@@ -1,5 +1,5 @@
 {
-  "name": "EncapsulationWebgl",
+  "name": "encapsulation-webgl",
   "version": "0.0.0",
   "private": false,
   "main": "src/components/Mesh/index.js",
@@ -14,7 +14,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name EncapsulationWebgl --dest lib src/components/Mesh/index.js"
+    "lib": "vue-cli-service build --target lib --name encapsulation-webgl --dest lib src/components/Mesh/index.js"
   },
   "dependencies": {
     "axios": "^0.18.0",
