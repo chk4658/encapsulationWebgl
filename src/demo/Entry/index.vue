@@ -6,23 +6,18 @@
   </div>
 </template>
 <script>
-import SimpleChart from "@/components/SimpleChart/SimpleChart";
-import Mesh from "@/components/Mesh/mesh.js";
+import Mesh from "./../mesh.js";
 
 export default {
-  name: "sketchpad",
-  components: {
-    SimpleChart,
-  },
+  name: "WebGlDemo",
+  components: {},
   data() {
     return {};
   },
   watch: {},
-  created() {},
+  created() {
+  },
   mounted() {
-    // this.$nextTick(() => {
-    //   this.init();
-    // });
     this.test();
   },
   methods: {
@@ -31,7 +26,8 @@ export default {
       new Mesh(canvas);
     },
   },
-  destroyed() {},
+  destroyed() {
+  },
 };
 </script>
 

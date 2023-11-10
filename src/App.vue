@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <router-view />
+    <test></test>
   </div>
 </template>
 
 <script>
+
+import Test from "@/demo/Entry/index.vue";
+
 export default {
   name: "app",
   data() {
     return {};
   },
-  components: {},
+  components: {Test},
   created() {
   },
   mounted() {

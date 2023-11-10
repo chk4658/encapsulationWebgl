@@ -1,4 +1,4 @@
-import WebGlDemo from './toNpmPublish';
+import WebGlDemo from './index';
 
 
 const components = [WebGlDemo]
@@ -7,6 +7,7 @@ const components = [WebGlDemo]
 */
 const install = (Vue) => {
     if (install.installed) return   // 判断是否安装注册过
+    console.log(components)
     components.forEach(component => Vue.component(component.name, component)) // 遍历并注册组件
 }
 
