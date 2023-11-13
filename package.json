@@ -1,14 +1,15 @@
 {
   "name": "encapsulation-webgl",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "private": false,
-  "main": "src/demo/Entry/index.js",
+  "main": "lib/encapsulation-webgl.common.js",
   "author": "ck",
   "description": "WebGL编程指南四个公用函数库封装到vue",
   "license": "MIT",
   "keywords": [
     "vue2",
-    "webgl"
+    "webgl",
+    "khc1szh"
   ],
   "scripts": {
     "serve": "vue-cli-service serve",

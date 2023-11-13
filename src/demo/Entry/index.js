@@ -1,4 +1,4 @@
-import WebGlDemo from './index';
+import WebGlDemo from './../component/WebGlDemo';
 
 
 const components = [WebGlDemo]

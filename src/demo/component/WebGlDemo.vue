@@ -23,6 +23,7 @@ export default {
   methods: {
     test() {
       const canvas = document.getElementById("canvas");
+      console.log(canvas)
       new Mesh(canvas);
     },
   },

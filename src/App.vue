@@ -6,7 +6,7 @@
 
 <script>
 
-import Test from "@/demo/Entry/index.vue";
+import Test from "@/demo/component/WebGlDemo";
 
 export default {
   name: "app",
