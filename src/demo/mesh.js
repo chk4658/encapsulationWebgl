@@ -16,6 +16,7 @@ class mesh {
       return;
     }
 
+    console.log(document.getElementById('shader-vs'))
 
     // 顶点着色器程序
     const VSHADER_SOURCE = `attribute vec4 a_Position;

@@ -1,6 +1,6 @@
 {
   "name": "encapsulation-webgl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "main": "lib/encapsulation-webgl.common.js",
   "author": "ck",
@@ -14,61 +14,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
     "lib": "vue-cli-service build --target lib --name encapsulation-webgl --dest lib src/demo/Entry/index.js"
   },
   "dependencies": {
-    "core-js": "^2.6.12",
-    "vue": "^2.5.22",
-    "vue-router": "^3.0.2",
-    "vuex": "^3.1.0"
+    "core-js": "^3.8.3",
+    "vue": "^2.6.14"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.4.0",
-    "@vue/cli-plugin-eslint": "^3.4.0",
-    "@vue/cli-service": "^3.4.0",
-    "babel-eslint": "^10.0.1",
-    "babel-plugin-import": "^1.13.5",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.14.1",
-    "sass-loader": "^7.1.0",
-    "ts-loader": "8.2.0",
-    "typescript": "^5.2.2",
-    "vue-class-component": "^7.2.6",
-    "vue-property-decorator": "^9.1.2",
-    "vue-template-compiler": "^2.5.21"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "rules": {
-      "no-console": [
-        0,
-        false
-      ],
-      "no-unused-vars": 0,
-      "vue/attributes-order": "error",
-      "vue/no-use-v-if-with-v-for": "off"
-    },
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "vue-template-compiler": "^2.6.14"
+  }
 }

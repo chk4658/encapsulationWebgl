@@ -5,22 +5,12 @@
 </template>
 
 <script>
-
-import Test from "@/demo/component/WebGlDemo";
+import test from "./demo/component/WebGlDemo";
 
 export default {
-  name: "app",
-  data() {
-    return {};
-  },
-  components: {Test},
-  created() {
-  },
-  mounted() {
-  },
-  methods: {},
+  name: "App",
+  components: { test },
 };
 </script>
 
-<style>
-</style>
+<style></style>
