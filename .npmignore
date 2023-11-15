@@ -7,3 +7,5 @@
 /src/
 /.browserslistrc
 /jsconfig.json
+/public/
+/package.json
