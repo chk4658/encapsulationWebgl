@@ -6,16 +6,32 @@
   </div>
 </template>
 <script>
-import Mesh from "./../mesh.js";
+import Mesh from "./../mesh";
 
 export default {
   name: "WebGlDemo",
   components: {},
+  props: {
+    title: {
+      type: String,
+    },
+    type: {
+      type: String,
+      default: 'info'
+    },
+    effect: {
+      type: String,
+    },
+    ckck: {
+      type: Float32Array,
+    },
+  },
   data() {
     return {};
   },
   watch: {},
   created() {
+    console.log('coach')
   },
   mounted() {
     this.test();
@@ -23,12 +39,11 @@ export default {
   methods: {
     test() {
       const canvas = document.getElementById("canvas");
-      console.log(canvas)
+      console.log(canvas);
       new Mesh(canvas);
     },
   },
-  destroyed() {
-  },
+  destroyed() {},
 };
 </script>
 

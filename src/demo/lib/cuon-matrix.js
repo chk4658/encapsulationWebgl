@@ -578,8 +578,14 @@ Matrix4.prototype.rotate = function(angle, x, y, z) {
 /**
  * Set the viewing matrix.
  * @param eyeX, eyeY, eyeZ The position of the eye point.
+ * @param eyeY
+ * @param eyeZ
  * @param centerX, centerY, centerZ The position of the reference point.
+ * @param centerY
+ * @param centerZ
  * @param upX, upY, upZ The direction of the up vector.
+ * @param upY
+ * @param upZ
  * @return this
  */
 Matrix4.prototype.setLookAt = function(eyeX, eyeY, eyeZ, centerX, centerY, centerZ, upX, upY, upZ) {

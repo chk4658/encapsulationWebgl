@@ -1,11 +1,12 @@
 {
   "name": "encapsulation-webgl",
-  "version": "0.1.2",
+  "version": "0.1.6",
   "private": false,
   "main": "lib/encapsulation-webgl.common.js",
   "author": "ck",
   "description": "WebGL编程指南四个公用函数库封装到vue",
   "license": "MIT",
+  "typings": "src/demo/types/index.d.ts",
   "keywords": [
     "vue2",
     "webgl",
@@ -23,6 +24,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
-    "vue-template-compiler": "^2.6.14"
+    "vue-template-compiler": "^2.6.14",
+    "webpack-glsl-loader": "^1.0.1"
   }
 }
