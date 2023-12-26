@@ -1,6 +1,6 @@
 {
   "name": "encapsulation-webgl",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "private": false,
   "main": "lib/encapsulation-webgl.common.js",
   "author": "ck",
