@@ -6,7 +6,6 @@
   "author": "ck",
   "description": "WebGL编程指南四个公用函数库封装到vue",
   "license": "MIT",
-  "typings": "src/demo/types/index.d.ts",
   "keywords": [
     "vue2",
     "webgl",
@@ -15,7 +14,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib --name encapsulation-webgl --dest lib src/demo/Entry/index.js"
+    "lib": "vue-cli-service build --target lib --name encapsulation-webgl --dest lib src/Entry/index.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
