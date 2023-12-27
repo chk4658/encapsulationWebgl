@@ -20,14 +20,35 @@ WebGL 算是比较底层的图形 API，WebGL 只能用它来渲染点，线和�
     表示顶点组合顺序
 ```
 
-### Compiles and minifies for production
+### npm
 ```
-npm run build
+npm version major   主版本号（大版本）[2.0.0]
+npm version minor   次版本号（小更新）[1.1.0]
+npm version patch   补丁号（补丁）[1.0.1]
+
+npm config set registry https://registry.npmjs.org/
+
+npm login 
+
+npm publish
+
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### yalc
+```
+npm i yalc -g
 
+组件
+    发布依赖 yalc publish
+    更新和推送 yalc push
+    
+用户
+    添加依赖 yalc add xxx
+    移除依赖 yalc remove xxx
+    更新依赖 yalc update xxx
+    移除当前包里的全部yalc依赖 yalc remove --all
+
+```
 
 ### 参考文章
 - [基于element-ui二次封装vue组件发布到npm](https://juejin.cn/post/7008793714835324936)
